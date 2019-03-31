@@ -18,7 +18,7 @@ Alternatively you can copy the SoftwareTimeStamping Folder into C:\Program Files
 #### Test
 
 Please try out our validation guide!
-https://github.com/Microsoft/SDN/blob/master/FeatureGuide/Validation%20Guide%20-%20RS5%20-%20Software%20Timestamping.docx
+https://github.com/Microsoft/W32Time/blob/master/Timestamping/docs/Validation%20Guide%20-%20RS5%20-%20Software%20Timestamping.docx
 
 ## Precision Time Protocol
 
