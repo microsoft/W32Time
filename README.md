@@ -1,5 +1,39 @@
+# W32Time
 
-# Contributing
+## SoftwareTimeStamping
+
+### Description
+
+This is a PowerShell Module and DSC Resources that can Get/Enable/Disable the Software Timestamping configuration.
+
+**Note** The PowerShell cmdlets and DSC resources do NOT restart the network adapters.  This is required prior to timestamping settings being effectual.  To do this, you can use Restart-NetAdapter or restart the computer.
+
+#### Installation
+
+This module can be installed from the PowerShell Gallery.  To do this run the following command from an elevated PowerShell prompt:
+```Install-Module SoftwareTimestamping```
+
+Alternatively you can copy the SoftwareTimeStamping Folder into C:\Program Files\WindowsPowerShell\Modules
+
+#### Test
+
+Please try out our validation guide!
+https://github.com/Microsoft/SDN/blob/master/FeatureGuide/Validation%20Guide%20-%20RS5%20-%20Software%20Timestamping.docx
+
+## Precision Time Protocol
+
+### Description
+
+Windows includes a PTPv2 (IEEE 1588v2) slave in the following versions of Windows:
+
+- Windows 10 October 2018 Update (and later)
+- Windows Server 2019 (and later)
+
+This folder contains resources for the PTP Client
+
+For more information, please see https://aka.ms/PTPValidation
+
+## Contributing
 
 This project welcomes contributions and suggestions.  Most contributions require you to agree to a
 Contributor License Agreement (CLA) declaring that you have the right to, and actually do, grant us
