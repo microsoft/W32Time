@@ -1,3 +1,5 @@
+##### :star: More by the Microsoft Core Networking team can be found using the [MSFTNet](https://github.com/topics/msftnet) topic
+
 # W32Time
 
 ## SoftwareTimeStamping
