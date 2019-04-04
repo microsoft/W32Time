@@ -1,2 +1,2 @@
-New-NetFirewallRule -DisplayName 'PTP-319' -Name 'PTP-319' -LocalPort 319 -Direction Inbound -Action Allow
-New-NetFirewallRule -DisplayName 'PTP-320' -Name 'PTP-320' -LocalPort 320 -Direction Inbound -Action Allow
+New-NetFirewallRule -DisplayName 'PTP-319' -Name 'PTP-319' -LocalPort 319 -Direction Inbound -Action Allow -Protocol UDP
+New-NetFirewallRule -DisplayName 'PTP-320' -Name 'PTP-320' -LocalPort 320 -Direction Inbound -Action Allow -Protocol UDP
