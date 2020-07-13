@@ -26,7 +26,7 @@ https://github.com/Microsoft/W32Time/blob/master/Timestamping/docs/Validation%20
 
 ### Description
 
-Windows includes a PTPv2 (IEEE 1588v2) slave in the following versions of Windows:
+Windows includes a PTPv2 (IEEE 1588v2) subordinate in the following versions of Windows:
 
 - Windows 10 October 2018 Update (and later)
 - Windows Server 2019 (and later)
