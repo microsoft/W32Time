@@ -6,7 +6,7 @@ In this article, you set your system for accurate time using Windows Admin Cente
 
 Setting up involves the following tasks:
 
-* Download Time Service `nupkg`
+* Download Time Service extension
 * Set up Windows Admin Center, if you haven't done so already
 * Install the Time Service extension for Windows Admin Center
 * Set desired time accuracy for your system
@@ -15,7 +15,7 @@ Setting up involves the following tasks:
 
 ## Download the Time Service extension.
 
-If you haven't already downloaded the preview extension, download it from [this github page](https://github.com/microsoft/W32Time/blob/master/msft.sme.time-service.0.47.4.nupkg). 
+If you haven't already downloaded the preview extension, download it from [this github page](https://github.com/microsoft/W32Time/blob/master/Time%20Service%20Extension/msft.sme.time-service.0.47.4.nupkg). 
 
 ## Setting up Windows Admin Center
 
