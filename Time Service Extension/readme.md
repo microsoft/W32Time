@@ -11,6 +11,7 @@ Setting up involves the following tasks:
 * Install the Time Service extension for Windows Admin Center
 * Set desired time accuracy for your system
 * Check to make sure your system configurations support your desired time accuracy
+* Get logs related to Windows Time Service
 
 ## Download the Time Service extension.
 
@@ -44,3 +45,7 @@ Note that you can select multiple time providers to synchronize from for your ma
 ## Check to make sure your system configurations support your desired time accuracy
 
 Time accuracy entails the end-to-end distribution of accurate time from the authoritative time source to the end device. Anything that adds asymmetry in measurements along this path will negatively influence the ability to achieve time accuracy on your machine. For this reason, we have worked on including a `checks` tab in the Windows Admin Center extension for Time Service, as just setting a desired time accuracy does not mean your system will actually become highly accurate. This tab lists the support boundary conditions for Windows Time service based on your configuration settings. It also tells you if your system is out of status, and if it is, what the required vs current value of the support condition is. You can click on individual rows in the checks tab to view the details pane. The details pane gives you more information on how to set your system and related documentation.
+
+## Get logs related to Windows Time Service
+
+On the checks tab of the Time Service extension, you also have the option to collect logs related to Time Service. Click on the logs button to get redirected to the Windows Admin Center extension for logs/events. These event logs are enabled by default and can be found in the extension under the Applications and Services Log\Microsoft\Windows\Time-Service\Operational channel.
